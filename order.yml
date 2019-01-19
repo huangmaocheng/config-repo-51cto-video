@@ -7,6 +7,6 @@ datasource:
     password: root
     driver-class-name: com.mysql.jdbc.Driver
     eureka:
-  client:
-    service-url:
-      defaultZone: http://eureka1:8761/eureka/
+client:
+  service-url:
+    defaultZone: http://localhost:8761/eureka
